@@ -23,6 +23,7 @@ img{
     max-width: 100%;
     min-height: auto;
     object-fit: contain;
+    border-radius: 1rem;
 }
 
 body{
@@ -37,7 +38,7 @@ body{
 
 .card{
   background-color: white;
-  width: 20rem;
+  width: 19rem;
   height: auto;
   padding: 1.25rem;
   border-radius: 0.8rem;
@@ -55,5 +56,15 @@ body{
 .card-title{
     text-align: center;
     font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
 }
 
+.card-description{
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.35;
+    margin-bottom: 1.5rem;
+}
